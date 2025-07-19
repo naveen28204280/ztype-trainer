@@ -42,9 +42,6 @@
 
         var $ = jQuery;
 
-        $("body").prepend("<div id='trailer-info' style='text-align:center;padding:10px'>Trainer Activated. made by KevinWang, <a href='https://github.com/KevinWang15/ztype-trainer'>visit GitHub Page</a></div>")
-
-
         var intervals = {};
 
 
