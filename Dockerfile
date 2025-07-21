@@ -4,8 +4,9 @@ LABEL maintainer="naveensrinvas282@gmail.com" description="Since nishtha wanted 
 
 COPY . .
 
-WORKDIR /
+WORKDIR /.
 
-RUN npm install http-server
+RUN npm cache clean --force
+RUN npm install -g http-server
 
 ENTRYPOINT [ "http-server" ]
